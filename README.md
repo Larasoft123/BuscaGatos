@@ -55,4 +55,4 @@ Si deseas contribuir al proyecto, puedes seguir los siguientes pasos:
 7. Abre un Pull Request en el repositorio oficial
 
 ## Autor
-[Larasoft] (https://github.com/Larasoft)
+[Larasoft] (https://github.com/Larasoft123)
