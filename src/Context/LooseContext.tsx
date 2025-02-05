@@ -2,7 +2,12 @@ import { createContext, useState } from "react";
 
 
 
-export const LooseContext = createContext({});
+export const LooseContext = createContext({
+    losee: false,
+    lifes: 3,
+    resetAll: () => {},
+    LooseLife: () => {},
+});
 
 export const LooseContextProvider = ({ children }: { children: React.ReactNode }) => {
     const [losee, setLosee] = useState(false)

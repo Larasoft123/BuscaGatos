@@ -25,7 +25,7 @@ function App() {
 
 
   const sortAleatorieBoard = () => {
-    const aleatorieBoard = board.map(fila => fila.sort(() => Math.random() - 0.5))
+    const aleatorieBoard = board.map((fila:any) => fila.sort(() => Math.random() - 0.5))
     setBoard(aleatorieBoard)
   }
 
